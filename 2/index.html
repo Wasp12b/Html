@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Landing Page</title>
-    <link rel="shortcut icon" href="./images/googlefavicon.png" type="image/png">
+    <link rel="shortcut icon" href="images/googlefavicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,20 +25,20 @@
     </header>
 
     <main class="main">
-        <img src="./images/googlelogo.png" alt="Google Logo">
+        <img class="main__logo" src="images/googlelogo.png" alt="Google Logo">
 
         <div class="main__search-bar">
-            <img class="main__search-bar--magnify" src="./images/magnifying_glass.jpg" alt="magnify-glass">
-            <input class="main__search-bar--input" type="search" name="search" placeholder="Search Google or type a URL">
-            <a href="#"><img class="main__search-bar--microphone" src="./images/google_microphone.png" alt="microphone"></a>
+            <img class="main__search-bar--magnify" src="images/magnifying_glass.jpg" alt="magnify-glass">
+            <input class="main__search-bar--input" type="search" name="search" placeholder="Search Google or type">
+            <a href="#"><img class="main__search-bar--microphone" src="images/google_microphone.png" alt="microphone"></a>
         </div>
 
-        <div class="main__btn-container">
-            <button type="button" name="button">Google Search</button>
-            <button type="button" name="button">I'm Feeling Lucky</button>
+        <div class="main__btn--container">
+            <button class="main__btn-container--left" type="button" name="button">Google Search</button>
+            <button class="main__btn-container--right" type="button" name="button">I'm Feeling Lucky</button>
         </div>
 
-        <div>
+        <div class="main__language">
             <p>Other Languages you can use Google: <a href="#">Turkish</a></p>
         </div>
     </main>
